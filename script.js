@@ -65,6 +65,7 @@
 						county['bachelorsOrHigher'] +
 						'%'
 				);
+				tooltip.attr('data-education', county['bachelorsOrHigher']);
 			})
 			.on('mouseout', (countyDataItem) => {
 				tooltip.transition().style('visibility', 'hidden');
